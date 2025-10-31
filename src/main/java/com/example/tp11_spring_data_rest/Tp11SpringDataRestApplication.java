@@ -5,6 +5,7 @@ import com.example.tp11_spring_data_rest.Repositories.CompteRepository;
 import com.example.tp11_spring_data_rest.entities.Client;
 import com.example.tp11_spring_data_rest.entities.Compte;
 import com.example.tp11_spring_data_rest.entities.TypeCompte;
+import jakarta.transaction.Transactional;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
